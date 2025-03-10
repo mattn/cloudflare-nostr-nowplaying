@@ -74,6 +74,9 @@ Git がインストールされていない場合、以下の手順でインス�
    ```sh
    cd cloudflare-nostr-nowplaying
    ```
+4. wrangler.toml.orig を wrangler.toml にコピー
+   ```sh
+   copy wrangler.toml.orig wrangler.toml
 
 ## 6. Cloudflare Workers のセットアップ
 
